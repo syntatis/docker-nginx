@@ -6,7 +6,7 @@ updates:
       interval: "monthly"
 
   - package-ecosystem: "docker"
-    directory: "/src/alpine/"
+    directory: "/nginx/alpine/"
     schedule:
       interval: "weekly"
       day: "sunday"
@@ -14,7 +14,7 @@ updates:
       - dependency-name: nginx
 
   - package-ecosystem: "docker"
-    directory: "/src/debian/"
+    directory: "/nginx/debian/"
     schedule:
       interval: "weekly"
       day: "sunday"
